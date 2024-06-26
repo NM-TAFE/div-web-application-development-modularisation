@@ -19,7 +19,7 @@ cd <repository-directory>
 
 ### 2. Review the Existing Code
 
-Open the scripts4.js file located in the assets/js directory and review the existing code.
+Open the scripts.js file located in the assets/js directory and review the existing code.
 
 ### 3. Create New Modules
 
