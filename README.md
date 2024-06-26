@@ -10,7 +10,10 @@ You will start with a single JavaScript file and refactor it into 2 modules and 
 
 ### 1. Clone the Repository
 
-First, clone the repository to your local machine:
+- click the link for your classroom repo on blackboard
+- link your GitHub account to your Student Number in GitHub Classroom
+- your repo you will use will be automatically created
+- clone the classroom repo to your local machine
 
 ```bash
 git clone <repository-url>
