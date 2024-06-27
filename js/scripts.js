@@ -7,8 +7,6 @@ function handleClickMeButton() {
   });
 }
 
-console.log("here");
-
 // Method to handle the Hover Over Me button hover event
 function handleHoverButton() {
   const button = document.getElementById("button2");
