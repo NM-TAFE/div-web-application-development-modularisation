@@ -7,6 +7,8 @@ function handleClickMeButton() {
   });
 }
 
+console.log("here");
+
 // Method to handle the Hover Over Me button hover event
 function handleHoverButton() {
   const button = document.getElementById("button2");
@@ -59,7 +61,7 @@ function addBooks(books) {
   container.appendChild(sidebar);
 }
 
-// Method to initialize the app
+// Method to initialise the app
 function initializeApp() {
   handleClickMeButton();
   handleHoverButton();
