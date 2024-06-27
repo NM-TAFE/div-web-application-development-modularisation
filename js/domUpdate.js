@@ -7,8 +7,8 @@ function addPost(title, content) {
 }
 
 function addBooks(books) {
-  const sidebar = document.createElement("aside");
-  sidebar.className = "sidebar";
+  const booksContainer = document.createElement("aside");
+  booksContainer.className = "section subtitle is-5 has-text-primary";
 
   const bookList = document.createElement("ul");
   bookList.id = "list";
@@ -19,9 +19,9 @@ function addBooks(books) {
     bookList.appendChild(listItem);
   });
 
-  sidebar.appendChild(bookList);
+  booksContainer.appendChild(bookList);
   const container = document.querySelector(".container");
-  container.appendChild(sidebar);
+  container.appendChild(booksContainer);
 }
 
 export { addPost, addBooks };

@@ -3,7 +3,7 @@ import {
   handleHoverButton,
   handleDoubleClickButton,
 } from "./eventHandlers.js";
-import { addPost, addBooks } from "./domManipulation.js";
+import { addPost, addBooks } from "./domUpdate.js";
 
 function initializeApp() {
   handleClickMeButton();
